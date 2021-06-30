@@ -20,7 +20,7 @@ begin
     30.times do
         print '-'
     end
-
+    
 rescue 
     puts "Sorry...also went wrong. Try again"
 end
