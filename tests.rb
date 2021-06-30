@@ -4,7 +4,7 @@
 require 'minitest/autorun'
 
 # Como estandar un test con esta gema se compone de varias partes, que son: 
-# 1. Una clase que ereda de Minitest
+# 1. Una clase que hereda de Minitest
 class UpperCaseTest < Minitest::Test
     # 2. Un metodo que evalua nuestro codigo
     def test_text_downcase_to_upcase
