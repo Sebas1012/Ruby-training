@@ -6,15 +6,13 @@ require 'minitest/autorun'
 # Como estandar un test con esta gema se compone de varias partes, que son: 
 # 1. Una clase que ereda de Minitest
 class UpperCaseTest < Minitest::Test
-    # 2. Un metodo que evalua nuestro codigo
-    def test_text_downcase_to_upcase
-        # 3. Configuracion de la prueba(instancias, asignacion de valores, etc.)
-        text = 'Hello'
-
-        # 4. Bloque de ejecucion(donde ejecutamos el codigo que arrojara un valor)
-        upcase_text = text.upcase
-
-        # 5. Verificacion(donde usamos minitest para validar que si tenemos el resultado deseado)
-        assert_equal 'HELLO', upcase_text
-    end
+	# 2. Un metodo que evalua nuestro codigo
+	def test_text_downcase_to_upcase
+	# 3. Configuracion de la prueba(instancias, asignacion de valores, etc.)
+		text = 'Hello'
+		# 4. Bloque de ejecucion(donde ejecutamos el codigo que arrojara un valor)
+		upcase_text = text.upcase
+    # 5. Verificacion(donde usamos minitest para validar que si tenemos el resultado deseado)
+    assert_equal 'HELLO', upcase_text
+  end
 end
