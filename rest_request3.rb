@@ -10,7 +10,7 @@ class TestDB
     base_uri ENV['DB_URL']
 
     def users
-        self.class.get('/usuarios.json')
+        self.class.get('/usuarios.json').code
     end
 
     def new_users(name, age, sex)
@@ -23,15 +23,15 @@ class TestDB
         header: {
             'Content-Type' => 'application/json'
         }
-    ).parsed_response
+      ).code
     end
 
     def delete_user(id)
-        self.class.delete("/usuarios/#{id}.json")
+        self.class.delete("/usuarios/#{id}.json").code
     end
 end
 
 prueba = TestDB.new
 
-puts prueba.users
+puts prueba.delete_user("-MghRqgElc4zflgn3hwX")
 
