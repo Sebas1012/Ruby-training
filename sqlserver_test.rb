@@ -15,8 +15,7 @@ result = client.execute("INSERT INTO usuarios(nombre, contraseña) VALUES('test_
 result.insert
 
 # Select Row
-client.execute("SELECT * FROM usuarios").each do|row|
-    puts row
-end
+puts client.execute("SELECT * FROM usuarios").each 
+
 
 client.close
