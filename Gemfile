@@ -9,4 +9,5 @@ gem 'httpclient', '~> 2.8', '>= 2.8.3'
 gem 'httparty', '~> 0.13.7'
 gem "google-cloud-firestore"
 gem 'tiny_tds', '~> 2.1', '>= 2.1.5'
+gem 'twilio-ruby', '~> 5.65'
 
