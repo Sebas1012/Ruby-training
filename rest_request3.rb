@@ -18,7 +18,7 @@ class TestDB
         body: {
             edad: age,
             nombre: name,
-            sexo: sex,
+            genero: gender,
         }.to_json,
         header: {
             'Content-Type' => 'application/json'
