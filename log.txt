@@ -1,0 +1,11 @@
+# Logfile created on 2022-07-11 11:49:57 -0500 by logger.rb/v1.4.2
+D, [2022-07-11T11:50:44.637696 #16196] DEBUG -- : I'm a debug log
+I, [2022-07-11T11:50:44.638191 #16196]  INFO -- : I'm an info log
+W, [2022-07-11T11:50:44.638447 #16196]  WARN -- : I'm a warn log
+E, [2022-07-11T11:50:44.638721 #16196] ERROR -- : I'm an error log: error message
+F, [2022-07-11T11:50:44.638895 #16196] FATAL -- : I'm a fatal log
+D, [2022-07-11T12:29:48.644703 #11096] DEBUG -- : I'm a debug log
+I, [2022-07-11T12:29:48.645236 #11096]  INFO -- : I'm an info log
+W, [2022-07-11T12:29:48.645505 #11096]  WARN -- : I'm a warn log
+E, [2022-07-11T12:29:48.645722 #11096] ERROR -- : I'm an error log: error message
+F, [2022-07-11T12:29:48.646018 #11096] FATAL -- : I'm a fatal log
